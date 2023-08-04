@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+#table1{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+#timetable, .first>th, .first>td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td{
+    height: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+}
+
+#timetable{
+    width: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
